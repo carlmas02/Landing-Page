@@ -415,7 +415,10 @@ ul{
 
     ul{
     display: flex;
-    gap :3em;
     padding-left: 1rem;
+    }
+
+    li{
+      margin-left: 0.8em;
     }
 }
