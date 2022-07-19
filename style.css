@@ -186,6 +186,8 @@ nav a:hover {
 
 
 .home{
+  background-image: url('bg.jpg');
+  background-size: cover;
   height: 78vh;
   display: flex;
   justify-content: center;
