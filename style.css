@@ -347,10 +347,8 @@ ul{
 
 
 
+@media(max-width:  900px){
 
-
-
-@media(max-width: 600px){
     .home{
       display: flex;
       flex-direction: column-reverse;
@@ -363,6 +361,10 @@ ul{
     .image{
       width: 50%;
     }
+}
+
+
+@media(max-width: 600px){
 
     nav{
       width: 104vw;
@@ -392,5 +394,28 @@ ul{
 
     .project-item{
       width: 88vw;
+    }
+
+    .social{
+      width: 104vw;
+    }
+
+    .links img{
+      width: 10vw;
+    }
+
+}
+
+
+@media(max-width: 1000px){
+
+    .home{
+      justify-content: center;
+    }
+
+    ul{
+    display: flex;
+    gap :3em;
+    padding-left: 1rem;
     }
 }
